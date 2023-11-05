@@ -7,6 +7,7 @@ document.getElementById("textBox").style.fontSize="1.5em";
 }
 
 function radioChange(){
+alert("Changing Styling...");
 let text=document.getElementById("textBox");
 if(document.getElementById("fancy").checked){
     text.style.fontWeight="bold";
